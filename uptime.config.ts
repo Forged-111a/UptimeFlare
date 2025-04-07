@@ -62,7 +62,7 @@ const workerConfig = {
       id: 'tver_server',
       name: 'Tver Office',
       method: 'TCP_PING',
-      target: '85.91.98.178:8291',
+      target: 'server-redirect-to-t6v9msl1:8291',
     },
     {
       id: 'ee_server',
