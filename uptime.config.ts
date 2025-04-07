@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "lyc8503's Status Page",
+  title: "DreamVR Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://apps.dreamvr.studio', label: 'Apps dashboard' },
@@ -10,8 +10,8 @@ const pageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    "🌐 WEB Services": ['staff', 'bar_monitor', 'more monitor ids...'],
-    "🔐 Servers": ['test_tcp_monitor'],
+    "🌐 WEB Services": ['staff_monitor', 'bar_monitor', 'more monitor ids...'],
+    "🗄️ Servers": ['test_tcp_monitor'],
   },
 }
 
