@@ -10,7 +10,7 @@ const pageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    "🌐 WEB Services": ['foo_monitor', 'bar_monitor', 'more monitor ids...'],
+    "🌐 WEB Services": ['staff', 'bar_monitor', 'more monitor ids...'],
     "🔐 Servers": ['test_tcp_monitor'],
   },
 }
