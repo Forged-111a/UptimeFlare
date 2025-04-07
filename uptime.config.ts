@@ -62,19 +62,19 @@ const workerConfig = {
       id: 'tver_server',
       name: 'Tver Office',
       method: 'TCP_PING',
-      target: 'https://office1.dreamvr.studio',
+      target: 'office1.dreamvr.studio',
     },
     {
       id: 'ee_server',
       name: 'Estonia Server',
       method: 'TCP_PING',
-      target: 'https://vpn1.dreamvr.studio',
+      target: 'vpn1.dreamvr.studio',
     },
     {
       id: 'cz_server',
       name: 'Czech Server',
       method: 'TCP_PING',
-      target: 'https://91.184.248.33:65443',
+      target: 'vpn2.dreamvr.studio',
     },
     
     // Example HTTP Monitor
