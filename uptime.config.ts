@@ -70,7 +70,7 @@ const workerConfig = {
       name: 'Estonia Server',
       method: 'GET',
       expectedCodes: [403],
-      target: 'http://185.155.96.162:55581',
+      target: 'http://185.155.96.162:32281',
     },
     {
       id: 'cz_server',
