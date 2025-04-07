@@ -73,19 +73,15 @@ export default function Home({
         <Text size="xs" mt="xs" mb="xs" style={{
           textAlign: 'center'
         }}>
-          Open-source monitoring and status page powered by{' '}
-          <a href="https://github.com/lyc8503/UptimeFlare" target="_blank">
-            Uptimeflare
+          Powred by {' '}
+          <a href="https://dreamvr.pro" target="_blank">
+            DreamVR Studio
           </a>{' '}
-          and{' '}
+          for{' '}
           <a href="https://www.cloudflare.com/" target="_blank">
             Cloudflare
           </a>
-          , made with ❤ by{' '}
-          <a href="https://github.com/lyc8503" target="_blank">
-            lyc8503
-          </a>
-          .
+          , made on base UptimeFlare (author lyc8503). OpenSource project.
         </Text>
       </main>
     </>
