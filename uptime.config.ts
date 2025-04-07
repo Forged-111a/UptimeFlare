@@ -68,8 +68,9 @@ const workerConfig = {
     {
       id: 'ee_server',
       name: 'Estonia Server',
-      method: 'TCP_PING',
-      target: '185.155.96.162:8291',
+      method: 'GET',
+      expectedCodes: [403],
+      target: 'http://185.155.96.162:55581',
     },
     {
       id: 'cz_server',
