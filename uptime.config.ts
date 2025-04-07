@@ -74,6 +74,7 @@ const workerConfig = {
       id: 'cz_server',
       name: 'Czech Server',
       method: 'GET',
+      expectedCodes: [403],
       target: 'https://91.184.248.33:65443',
     },
     
