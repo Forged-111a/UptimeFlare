@@ -62,6 +62,7 @@ const workerConfig = {
       id: 'tver_server',
       name: 'Tver Office',
       method: 'GET',
+      expectedCodes: [403],
       target: 'http://85.91.98.178:81',
     },
     {
