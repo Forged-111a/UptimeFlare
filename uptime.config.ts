@@ -61,8 +61,8 @@ const workerConfig = {
     {
       id: 'tver_server',
       name: 'Tver Office',
-      method: 'TCP_PING',
-      target: '85.91.98.178:8291',
+      method: 'GET',
+      target: 'http://85.91.98.178:81',
     },
     {
       id: 'ee_server',
