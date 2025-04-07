@@ -21,7 +21,6 @@ return (
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
         <div>
-          <a href="https://status.dreamvr.studio/" target="_blank">
             <Text size="xl" span>
               🕒
             </Text>
@@ -34,7 +33,6 @@ return (
             >
               DreamVR Status Page
             </Text>
-          </a>
         </div>
 
         <Group gap={5} visibleFrom="sm">
