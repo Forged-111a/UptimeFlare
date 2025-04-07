@@ -38,7 +38,7 @@ const workerConfig = {
       id: 'jenkins',
       name: 'Jenkins',
       method: 'GET',
-      target: 'https://jenkins.dreamvr.studio',
+      target: 'https://jenkins.dreamvr.studio/login?from=%2F',
     },  
     {
       id: 'vault',
