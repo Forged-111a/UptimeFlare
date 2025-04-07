@@ -74,7 +74,7 @@ const workerConfig = {
       id: 'cz_server',
       name: 'Czech Server',
       method: 'TCP_PING',
-      target: '91.184.248.33:65443',
+      target: '91.184.248.33:65022',
     },
     
     // Example HTTP Monitor
