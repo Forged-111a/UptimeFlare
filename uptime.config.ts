@@ -62,13 +62,13 @@ const workerConfig = {
       id: 'tver_server',
       name: 'Tver Office',
       method: 'TCP_PING',
-      target: '85.91.98.178:3389',
+      target: '85.91.98.178:8291',
     },
     {
       id: 'ee_server',
       name: 'Estonia Server',
       method: 'TCP_PING',
-      target: '185.155.96.162:3389',
+      target: '185.155.96.162:8291',
     },
     {
       id: 'cz_server',
