@@ -26,7 +26,7 @@ const workerConfig = {
       id: 'staff_monitor',
       name: 'Staff',
       method: 'GET',
-      target: 'https://staff.dreamvr.studio'
+      target: 'https://staff.dreamvr.studio',
     },  
     
     // Example HTTP Monitor
