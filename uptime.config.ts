@@ -10,7 +10,7 @@ const pageConfig = {
   // If not specified, all monitors will be shown in a single list
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
-    "🌐 WEB Services": ['staff_monitor', 'bar_monitor', 'more monitor ids...'],
+    "🌐 WEB Services": ['staff', 'gitlab', 'jenkins', 'vault', 'wiki', 'mail'],
     "🗄️ Servers": ['test_tcp_monitor'],
   },
 }
@@ -23,11 +23,41 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
-      id: 'staff_monitor',
+      id: 'staff',
       name: 'Staff',
       method: 'GET',
       target: 'https://staff.dreamvr.studio',
+    },
+    {
+      id: 'gitlab',
+      name: 'GitLab',
+      method: 'GET',
+      target: 'https://gitlab.dreamvr.studio',
     },  
+    {
+      id: 'jenkins',
+      name: 'Jenkins',
+      method: 'GET',
+      target: 'https://jenkins.dreamvr.studio',
+    },  
+    {
+      id: 'vault',
+      name: 'Vault',
+      method: 'GET',
+      target: 'https://vault.dreamvr.studio',
+    },
+    {
+      id: 'wiki',
+      name: 'Wiki',
+      method: 'GET',
+      target: 'https://wiki.dreamvr.studio',
+    },
+    {
+      id: 'mail',
+      name: 'Mail',
+      method: 'GET',
+      target: 'https://mail.dreamvr.studio',
+    },
     
     // Example HTTP Monitor
     ///{
