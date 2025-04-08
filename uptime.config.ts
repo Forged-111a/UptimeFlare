@@ -90,6 +90,7 @@ const workerConfig = {
       id: 'gb_server',
       name: 'London Server',
       method: 'GET',
+      expectedCodes: [403],
       target: 'http://46.226.162.191:51821',
     },
     
