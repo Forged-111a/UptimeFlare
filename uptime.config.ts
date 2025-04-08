@@ -11,7 +11,7 @@ const pageConfig = {
   // If specified, monitors will be grouped and ordered, not-listed monitors will be invisble (but still monitored)
   group: {
     "🌐 WEB Services": ['staff', 'gitlab', 'jenkins', 'vault', 'wiki', 'mail'],
-    "🗄️ Servers": ['tver_server', 'msk_server', 'ee_server', 'cz_server' 'gb_server',],
+    "🗄️ Servers": ['tver_server', 'msk_server', 'ee_server', 'cz_server', 'gb_server'],
   },
 }
 
