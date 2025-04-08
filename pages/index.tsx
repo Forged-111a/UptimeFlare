@@ -77,9 +77,9 @@ export default function Home({
           <a href="https://dreamvr.pro" target="_blank">
             DreamVR Studio
           </a>{' '}
-          for{' '}
-          <a href="https://www.cloudflare.com/" target="_blank">
-            Cloudflare
+          on{' '}
+          <a href="https://pages.cloudflare.com/" target="_blank">
+            Cloudflare Workers & Pages
           </a>
           , made on base UptimeFlare (author lyc8503). OpenSource project.
         </Text>
