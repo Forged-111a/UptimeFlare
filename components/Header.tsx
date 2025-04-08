@@ -22,7 +22,7 @@ return (
       <Container size="md" className={classes.inner}>
         <div>
             <Text size="xl" span>
-              🕒
+              💓🖥️
             </Text>
             <Text
               size="xl"
