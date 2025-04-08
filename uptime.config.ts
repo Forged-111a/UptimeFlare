@@ -66,6 +66,13 @@ const workerConfig = {
       target: 'http://85.91.98.178:81',
     },
     {
+      id: 'msk_server',
+      name: 'Regional Traffic Point (MSK)',
+      method: 'GET',
+      expectedCodes: [403],
+      target: 'http://31.130.144.91:81',
+    },
+    {
       id: 'ee_server',
       name: 'Estonia Server',
       method: 'GET',
@@ -78,6 +85,12 @@ const workerConfig = {
       method: 'GET',
       expectedCodes: [403],
       target: 'https://91.184.248.33:65443',
+    },
+    {
+      id: 'gb_server',
+      name: 'London Server',
+      method: 'GET',
+      target: 'http://46.226.162.191:51821',
     },
     
     // Example HTTP Monitor
