@@ -29,7 +29,7 @@ return (
               span
               fw={700}
               variant="gradient"
-              gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
+              gradient={{ from: 'blue', to: 'pink', deg: 90 }}
             >
               DreamVR Status Page
             </Text>
