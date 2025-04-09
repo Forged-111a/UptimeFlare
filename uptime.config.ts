@@ -74,14 +74,14 @@ const workerConfig = {
     },
     {
       id: 'ee_server',
-      name: 'Estonia Server',
+      name: 'Tallin Server',
       method: 'GET',
       expectedCodes: [403],
       target: 'http://185.155.96.162:81',
     },
     {
       id: 'cz_server',
-      name: 'Czech Server',
+      name: 'Prague Server',
       method: 'GET',
       expectedCodes: [403],
       target: 'https://91.184.248.33:65443',
